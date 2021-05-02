@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.8
 
 WORKDIR /app
 RUN git clone https://github.com/weijia/django-dev-server.git
